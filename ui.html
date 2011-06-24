@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <title>JQuery UI Sandbow</title>
+
+    <script src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/smoothness/jquery-ui.css" />
+
+</head>
+<body>
+
+<script>
+
+
+
+$(document).ready(function($){
+    $('.actions button:first').button({
+        icons: {
+            primary: "ui-icon-gear",
+        },
+        text:false
+    })
+});
+</script>
+<div class="demo">
+
+<button>Button with icon only</button>
+<button>Button with icon on the left</button>
+<button>Button with two icons</button>
+<button>Button with two icons and no text</button>
+
+    <div class="actions"><button>Button with two icons and no text</button></div>
+</div><!-- End demo -->
+</body>
+</html>
