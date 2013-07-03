@@ -1,10 +1,12 @@
+// Sample file from http://robdodson.me/blog/2012/05/27/testing-backbone-boilerplate-with-mocha-and-chai
+
 var assert = chai.assert,
     expect = chai.expect,
-    should = chai.should(); // Note that should has to be executed
+    should = chai.should(); 
 
 var foobar = {
   sayHello: function() {
-    return 'funky chicken!';
+    return 'Hello World!';
   }
 };
 
