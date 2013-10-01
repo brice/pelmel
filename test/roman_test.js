@@ -4,7 +4,7 @@ var assert = chai.assert,
 
 describe('#RomanToInteger()', function() {
   it('Test to return I when put 1', function() {
-    expect(new Roman(1).toInteger(1)).to.equal('I');
+    expect(new Roman(1).toInteger()).to.equal('I');
   });
 
 });
