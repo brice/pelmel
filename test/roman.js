@@ -1,8 +1,6 @@
-var assert = chai.assert,
-    expect = chai.expect,
-    should = chai.should();
-
-
+/**
+ * A class that convert roman number to integer
+ */
 function Roman(integer) {
   this.integer = integer;
 
@@ -12,11 +10,3 @@ function Roman(integer) {
     }
   }
 }
-
-
-describe('#RomanToInteger()', function() {
-  it('Test to return I when put 1', function() {
-    expect(new Roman(1).toInteger(1)).to.equal('I');
-  });
-
-});
