@@ -1,7 +1,8 @@
+
 var assert = chai.assert,
     expect = chai.expect,
-    should = chai.should(); 
-    
+    should = chai.should();
+
 var error = new Error('This is a bad function.');
 
 function FizzBuzz(i) {
