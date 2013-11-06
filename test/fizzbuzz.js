@@ -6,9 +6,6 @@ var assert = chai.assert,
 var error = new Error('This is a bad function.');
 
 function FizzBuzz(i) {
-  if(typeof i !== 'number'){
-  	throw error;
-  }
   var result = '';
   if (i % 3 === 0) {
   	result +='fizz';
@@ -45,7 +42,5 @@ describe('#FizzBuzz()', function() {
   it('Fizzbuzz return \'fizzbuzz\' with parameters 15', function() {
     expect(FizzBuzz(15)).to.equal('fizzbuzz');
   });
-  it('Fizzbuzz return \'fizzbuzz\' with parameters 15', function() {
-    expect(FizzBuzz('a')).to.throw('This is a bad function.');
-  });
+
 })

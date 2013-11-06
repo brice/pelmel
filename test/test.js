@@ -6,7 +6,7 @@ var assert = chai.assert,
 
 var foobar = {
   sayHello: function() {
-    return 'Hello World!';
+    return 'funky chicken!';
   }
 };
 
