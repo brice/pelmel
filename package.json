@@ -1,0 +1,29 @@
+{
+  "name": "pelmel",
+  "version": "1.0.0",
+  "description": "Various contribution, testing and other stuff",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brice/pelmel.git"
+  },
+  "keywords": [
+    "testing",
+    "draft",
+    "build",
+    "test",
+    "qa"
+  ],
+  "author": "Brice Favre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brice/pelmel/issues"
+  },
+  "homepage": "https://github.com/brice/pelmel#readme"
+}
